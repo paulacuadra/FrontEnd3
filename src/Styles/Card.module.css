@@ -2,42 +2,22 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 2px solid firebrick;
-    border-radius: 10px;
     margin: 10px;
-    padding: 10px;
-    background-color: #fdf2da;
-    color: firebrick;
+    border: 2px solid rgb(68, 177, 68);
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #e0f7e0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 20px;
   }
   
-  .cardImg {
-    width: 280px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 10px;
+  h3 {
+    color: green;
+    margin-bottom: 20px;
   }
   
-  .btnGroup {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  p {
+    color: #333;
   }
-  
-  .btnGroup button {
-    min-width: 30px;
-    background-color: transparent;
-    border: 1px solid firebrick;
-    margin: 5px;
-    color: firebrick;
-    font-size: 20px;
-    transition: 0.3s;
-  }
-  
-  .btnGroup button:hover {
-    box-shadow: 2px 2px 5px #000;
-  }
-  
-  .btnGroup button:focus,
-  button:focus-visible {
-    outline: none;
-  }
+ 

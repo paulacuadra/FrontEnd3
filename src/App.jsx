@@ -25,6 +25,7 @@ function App() {
       event.preventDefault();
       if (
         customer.personaje.trim().length > 3 &&
+        !customer.personaje.startsWith(" ") &&
         customer.pelicula.trim().length > 6
       ) {
         setShowCard(true);
@@ -65,7 +66,7 @@ function App() {
   
         {error ? (
           <h4 style={{ color: "red" }}>
-            Error: Por favor, coloque la información correctamente
+            “Por favor chequea que la información sea correcta”
           </h4>
         ) : null}
 
